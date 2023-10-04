@@ -77,4 +77,8 @@ export class LoginComponent {
     
   }
 
+  navigateToCreateUser(): void {
+    this.router.navigate(['/create-user']); // Navigate to the create-user route
+  }
+
 }
